@@ -76,6 +76,11 @@
     font-size: 1.25em !important;
   }
 
+  .detail_announcements2 .tool_headline2, .tool_headline2 > a {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+  }
+
   .drop_level2_wrapper {
     text-transform: none !important;
   }
@@ -88,6 +93,10 @@
     font-size: 2rem !important;
     line-height: initial !important;
     text-underline-position: auto !important;
+  }
+
+  .news-list > li {
+      padding-bottom: 50px;
   }
 
   :not(div) > a[href="mailto:bmccommunications@bishopmoore.org"] {
