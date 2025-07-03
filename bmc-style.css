@@ -79,6 +79,7 @@
   .detail_announcements2 .tool_headline2, .tool_headline2 > a {
     font-weight: 500 !important;
     font-size: 30px !important;
+    line-height: 1.5em !important;
   }
 
   .drop_level2_wrapper {
