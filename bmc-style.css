@@ -101,6 +101,10 @@
     text-underline-position: auto !important;
   }
 
+  .middle_column ul li, .middle_column ol li, .right_content ul li, .right_content ol li, .ck-content ul li, .ck-content ol li {
+      padding-left: 0 !important;
+  }
+
   .news-list > li {
       padding-bottom: 50px;
   }
