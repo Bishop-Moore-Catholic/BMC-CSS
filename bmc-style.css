@@ -101,6 +101,10 @@
     text-underline-position: auto !important;
   }
 
+  body:not(#sm3_body) main.inside a:not(.audio_link,header a,footer a,.button,.back-to-top,.overlaycolor,.audio_link,[href="#"],[href="javascript:void(0);"],[href*="#pop"],[href^="#pop"],[class*=ln],[class^=ln],.goto_date,.calendar_event_title a,.dir-link a,.sort_box a,.dir-head-link,.ec-expandme a), .swal2-html-container p a:not(.button) {
+        text-underline-position: auto !important;
+  }
+
   .middle_column ul li, .middle_column ol li, .right_content ul li, .right_content ol li, .ck-content ul li, .ck-content ol li {
       padding-left: 0 !important;
   }
