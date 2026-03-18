@@ -1,3 +1,4 @@
+<style>
 @import url("https://use.typekit.net/ymt8xmp.css");
 
   em {
@@ -100,7 +101,7 @@
     line-height: initial !important;
     text-underline-position: auto !important;
   }
-
+  
   body:not(#sm3_body) main.inside a:not(.audio_link,header a,footer a,.button,.back-to-top,.overlaycolor,.audio_link,[href="#"],[href="javascript:void(0);"],[href*="#pop"],[href^="#pop"],[class*=ln],[class^=ln],.goto_date,.calendar_event_title a,.dir-link a,.sort_box a,.dir-head-link,.ec-expandme a), .swal2-html-container p a:not(.button) {
         text-underline-position: auto !important;
   }
@@ -108,34 +109,7 @@
   .middle_column ul li, .middle_column ol li, .right_content ul li, .right_content ol li, .ck-content ul li, .ck-content ol li {
       padding-left: 0 !important;
   }
-
-  .news-list > li {
-      padding-bottom: 50px;
-  }
-
-  :not(div) > a[href="mailto:bmccommunications@bishopmoore.org"] {
-    visibility: unset !important;
-    position: initial !important;
-  }
-
-  :not(div) > a[href="mailto:bmccommunications@bishopmoore.org"]:after {
-    visibility: hidden !important;
-    position: initial;
-  }
-
-  a[href="mailto:bmccommunications@bishopmoore.org"]:last-of-type {
-    visibility: hidden;
-    position: relative;
-  }
-
-  a[href="mailto:bmccommunications@bishopmoore.org"]:last-of-type:after {
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "Email Us";
-  }
-
+  
   #news .uk-card-media-top {
     background-color: rgba(1,1,1,0) !important;
   }
@@ -174,4 +148,18 @@
       margin-top: 0 !important;
       padding-top: 0 !important;
     }
+    
+    article#logo {
+      margin-right: 10%;
+    }
   }
+  
+  #topnav li:last-child .drop_level2_wrapper li .drop_level2_wrapper {
+    right: 100% !important;
+  }
+  
+  .multi-column.colno-1 {
+    margin-left: 0% !important;
+  }
+  
+</style>
