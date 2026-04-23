@@ -1,0 +1,10 @@
+<style>
+/**********************************************/
+/* Hide profile tool search bar for main pages*/
+/**********************************************/
+.staff_header,
+.detail_profiles .back_btn,
+.staff_header .search_form {
+  display: none !important;
+}
+</style>
