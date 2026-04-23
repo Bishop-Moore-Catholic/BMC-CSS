@@ -1,5 +1,8 @@
+<style>
 @import url("https://use.typekit.net/ymt8xmp.css");
-
+  
+  .swal2-close {display:none!important}
+  
   em {
     color: black;
   }
@@ -172,6 +175,7 @@
   @media (max-width: 1300px) {
     .button {
       line-height: 1.2 !important;
+      padding: 0 40px !important;
     }
     
     .inside .button {
@@ -238,12 +242,4 @@
       max-width: 100% !important;
     }
   }
-
-/**********************************************/
-/* Hide profile tool search bar for main pages*/
-/**********************************************/
-.staff_header,
-.detail_profiles .back_btn,
-.staff_header .search_form {
-  display: none !important;
-}
+</style>
