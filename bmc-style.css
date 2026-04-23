@@ -175,7 +175,7 @@
   @media (max-width: 1300px) {
     .button {
       line-height: 1.2 !important;
-      padding: 0 40px !important;
+      padding: 10px 40px 10px 40px;
     }
     
     .inside .button {
