@@ -2,9 +2,7 @@
 /**********************************************/
 /* Hide profile tool search bar for main pages*/
 /**********************************************/
-.staff_header,
-.detail_profiles .back_btn,
-.staff_header .search_form {
+section.staff_header > .search_form, .detail_profiles .back_btn, .staff_header {
   display: none !important;
 }
 </style>
